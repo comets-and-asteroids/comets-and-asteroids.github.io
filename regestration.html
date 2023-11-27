@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Кометы и астеройды</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="screenshots/fivicon.ico" sizes="any">
+    <script src="https://kit.fontawesome.com/95a4548cd9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <a class="upper" href="javascript:scroll(0,0);" onclick="window.scroll(0,0);"><img alt="upper" src="screenshots/f3decc99-f20f-41f2-8803-352c443b04f7.png"></a>
+    <header>
+        <div class="pannel-nav-header">
+            <a href="index.html"><img alt="logo: stars and comet" src="screenshots/kisspng_symbol_comet_computer_icons_clip_art_comet_5abd817698e3c12808965515223688866262_negate-transformed.png">
+                <h1>Кометы и Астероиды</h1>
+            </a>
+            <nav>
+                <img src="screenshots/scale_1200_negate.jpg" width="32" height="32">
+                <li class="nav_element"><a href="index.html">Главная страница</a></li>
+                <li class="nav_element"><a href="article-page.html">Краткие статьи</a></li>
+                <li class="nav_element"><a href="gallery.html">Изображения</a></li>
+                <li class="nav_element"><a href="list-of-articles.html">Полные статьи</a></li>
+                <li class="nav_element"><a href="regestration.html">Регистрация</a></li>
+            </nav>
+        </div>
+        <h1 id="title-h1">РЕГИСТРАЦИЯ</h1>
+    </header>
+    <main>
+
+        <section>
+            <form class="grid-registration" method="post">
+                <h2 id="grid-title">Регистрация</h2>
+                <input id="Name" type="text" name="Name" minlength="3" maxlength="25" required placeholder="Имя">
+                <input id="sName" type="text" name="sName" minlength="3" maxlength="25" required placeholder="Фамилия">
+                <input id="email" type="email" name="email" required placeholder="Почта">
+                <input id="password" type="password" name="password" required placeholder="Пароль">
+                <input id="submit" type="submit" name="submit">
+                <label for="capcha"></label>
+                <input id="capcha" type="text" name="text" placeholder="Введите капчу">
+                <script src="capcha.js"></script>
+
+            </form>
+        </section>
+    </main>
+    <footer id="links">
+        <h2>Полезные ссылки</h2>
+        <address>
+            <div class="footer-el" id="fel-1">
+                <h3>О нас</h3>
+                <p>Разработчиком этого сайта является студент второго курса Московского технологического вуза Мирэа Никольский Серафим</p>
+            </div>
+            <div class="footer-el" id="fel-2">
+                <h3>О сайте</h3>
+                <p>Данный сайт предоставляеет возможность пользователям узнать больше об метеоритах и ученых их открывших</p>
+            </div>
+            <ol class="footer-el" id="fel-3">
+                <!-- Список -->
+                <li><a href="https://vk.com/iamsmartgod">
+                        <p class="fa-brands fa-vk fa-2xl"></p>
+                    </a></li>
+                <li><a href="mailto:serafimnikolskiy@gmail.com">
+                        <p class="fa-solid fa-envelope"></p>
+                    </a></li>
+                <li><a href="tel:+79653663550">
+                        <p class="fa-solid fa-phone"></p>
+                    </a></li>
+            </ol>
+        </address>
+    </footer>
+</body>
+
+</html>
