@@ -190,36 +190,32 @@ footer {
     background-color: #02041F;
     margin: 0px;
 }
-
-.comments {
-    display: inline-block;
-    font-size: 14px;
-    width: 90%;
-    text-align: justify;
-}
-.comments img{
-    border-radius: 15px;
-    height: 250px;
-}
 #second_paragraph {
     background: linear-gradient(45deg, rgba(0, 46, 5, 1) 0%, rgba(7, 0, 53, 1) 100%);
 }
 #fifth_paragraph{
     background: linear-gradient(45deg, rgba(46,0 , 5, 1) 0%, rgba(7, 0, 53, 1) 100%);
 }
-.comments-line:hover article {
+.comments img{
+    border-radius: 15px;
+    height: 250px;
+}
+.comments {
+    display: inline-block;
+    font-size: 14px;
+    width: 90%;
+    text-align: justify;
+}
+.comments-line:hover a {
     filter: blur(10px);
 }
-
 .comments-line a {
     background: rgb(255, 255, 255, 0.15);
     backdrop-filter: blur(10px);
 }
-
 .comments-line {
     transition: all 1.5s;
 }
-
 .comments-line > a:hover {
     filter: none;
     transform: scale(1.15);
@@ -817,7 +813,6 @@ a {
     animation: sircle-to-square 1s 0s;
     animation-play-state: paused;
     animation-direction: alternate;
-
 }
 
 .message:hover {
